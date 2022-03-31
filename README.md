@@ -1,5 +1,3 @@
-# Active Record Querying Methods Lab
-
 ## Objectives
 
 1. Create a table using ActiveRecord.
@@ -22,7 +20,7 @@ request the sum of all of the values of a particular column with the `#sum`
 method:
 
 ```ruby
-ClassName.sum(:column_name)
+<class name>.sum(:<column_name>)
 ```
 
 We can query our database based on certain conditions using the `#where` method.
@@ -99,3 +97,5 @@ You'll be defining the following methods:
 - `shows_by_alphabetical_order`: returns an array of all of the shows sorted in
   alphabetical order according to their names. _hint_: use the `order` Active
   Record method.
+
+
